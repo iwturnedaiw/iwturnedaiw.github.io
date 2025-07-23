@@ -122,3 +122,142 @@ footer {
 .active-lang {
   font-weight: bold;
 }
+
+/* Tech Memo Page Styles */
+.memo-list {
+  margin: 20px 0;
+}
+
+.memo-list h3 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.memo-list ul {
+  margin: 15px 0;
+  padding-left: 25px;
+}
+
+.memo-list li {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+#tech-memo-content {
+  min-height: 400px;
+}
+
+/* Individual memo item styles */
+.memo-item {
+  background-color: white;
+  border: 1px solid #e1e5e9;
+  border-radius: 8px;
+  padding: 25px;
+  margin: 25px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.memo-item h4 {
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1.3em;
+}
+
+.memo-date {
+  color: #7f8c8d;
+  font-size: 0.9em;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.memo-item h5 {
+  color: #34495e;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ecf0f1;
+  padding-bottom: 5px;
+}
+
+.memo-item pre {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  padding: 15px;
+  overflow-x: auto;
+  margin: 15px 0;
+}
+
+.memo-item code {
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+/* Tech memo title list styles */
+.memo-title-list {
+  list-style: none;
+  padding: 0;
+}
+
+.memo-title-list li {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.memo-title-list a {
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+  flex-grow: 1;
+}
+
+.memo-title-list a:hover {
+  text-decoration: underline;
+}
+
+.memo-title-list .memo-date {
+  margin-left: 15px;
+  white-space: nowrap;
+  color: #7f8c8d;
+  font-size: 0.9em;
+}
+
+/* Individual memo article styles */
+.memo-article {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.memo-article h1 {
+  color: #2c3e50;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.memo-article h2 {
+  color: #34495e;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ecf0f1;
+  padding-bottom: 8px;
+}
+
+.memo-article pre {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  padding: 20px;
+  overflow-x: auto;
+  margin: 20px 0;
+  line-height: 1.4;
+}
+
+.memo-article code {
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.9em;
+}

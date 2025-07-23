@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>技術メモ - MINAMI Shohei</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="language-switcher">
+    <button onclick="switchLanguage('ja')" id="ja-btn" class="active-lang">日本語</button>
+    <button onclick="switchLanguage('en')" id="en-btn">English</button>
+  </div>
+
+  <header>
+    <h1 class="ja">技術メモ</h1>
+    <h1 class="en">Tech Notes</h1>
+    <nav class="ja">
+      <a href="index.html">ホーム</a>
+      <a href="index.html#about">プロフィール</a>
+      <a href="index.html#research">研究</a>
+      <a href="index.html#publications">論文</a>
+    </nav>
+    <nav class="en">
+      <a href="index.html">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#research">Research</a>
+      <a href="index.html#publications">Publications</a>
+    </nav>
+  </header>
+
+  <section id="tech-memo-content">
+    <div class="ja">
+      <h2>技術メモについて</h2>
+      <p>
+        ここでは、HPCやシステムソフトウェア開発に関する技術的な知見やメモを共有していきます。
+      </p>
+      
+      <div class="memo-list">
+        <h3>メモ一覧</h3>
+        
+        <ul class="memo-title-list">
+          <li><a href="dummy-tech-memo.html">ダミー技術記事のタイトル</a> <span class="memo-date">2025年7月24日</span></li>
+        </ul>
+        
+        <p><strong>今後追加予定：</strong></p>
+        <ul>
+          <li>hogee</li>
+          <li>fuga</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="en">
+      <h2>About Tech Notes</h2>
+      <p>
+        Here I share technical insights and notes related to HPC and system software development.
+      </p>
+      
+      <div class="memo-list">
+        <h3>Note List</h3>
+        
+        <ul class="memo-title-list">
+          <li><a href="dummy-tech-memo.html">Dummy Technical Article Title</a> <span class="memo-date">July 24, 2025</span></li>
+        </ul>
+        
+        <p><strong>Planned additions:</strong></p>
+        <ul>
+          <li>Job Scheduler Implementation and Optimization</li>
+          <li>Parallel Programming Best Practices</li>
+          <li>System Monitoring and Troubleshooting</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p class="ja">© 2025 南 将平. <a href="index.html">メインページに戻る</a></p>
+    <p class="en">© 2025 Shohei Minami. <a href="index.html">Back to Main Page</a></p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
